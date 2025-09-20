@@ -4,7 +4,7 @@
   imports = [
     ./packages.nix
     ./dotfile.nix
-    ./zsh.nix
+    ./zsh
   ];
 
   home.username = "ytaya";
