@@ -1756,3 +1756,16 @@ typeset -g POWERLEVEL9K_CONFIG_FILE=${${(%):-%x}:a}
 
 (( ${#p10k_config_opts} )) && setopt ${p10k_config_opts[@]}
 'builtin' 'unset' 'p10k_config_opts'
+
+
+# History options
+setopt APPEND_HISTORY           # append to history file, don't overwrite
+setopt INC_APPEND_HISTORY       # save commands immediately
+setopt SHARE_HISTORY            # share history across all shells
+setopt HIST_IGNORE_DUPS         # ignore consecutive duplicates
+setopt HIST_IGNORE_ALL_DUPS     # ignore all duplicates
+setopt HIST_REDUCE_BLANKS       # remove extra spaces
+setopt HIST_VERIFY              # show command for editing before executing
+setopt EXTENDED_HISTORY         # save timestamp with each command
+setopt HIST_EXPIRE_DUPS_FIRST   # remove older duplicates first
+setopt HIST_IGNORE_SPACE        # ignore commands starting with space

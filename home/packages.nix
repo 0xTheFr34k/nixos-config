@@ -3,6 +3,7 @@
 {
 
   home.packages = with pkgs; [
+    wget
     k9s
     k6
     k3d
