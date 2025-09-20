@@ -1,0 +1,24 @@
+version: '3'
+
+tasks:
+  default:
+    cmds:
+      - task --list-all
+    silent: true
+
+  switch:
+    cmds:
+      -  nh home switch .
+    aliases: ["s"]
+
+  update:
+    cmds:
+      - nix flake update
+    aliases: ["up"]
+
+  cleanup:
+    cmds:
+      - nh clean all
+    aliases: ["gc"]
+
+
