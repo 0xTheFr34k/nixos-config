@@ -42,6 +42,7 @@
       xopy = "pbcopy <";
       xpaste = "pbpaste >";
       xshow = "pbpaste";
+      cls = "clear";
     };
 
   };
