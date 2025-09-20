@@ -2,8 +2,8 @@
 {
 
   home.file = {
-    ".config/zsh/.p10.zsh" = {
-      source = ./zsh/.p10.zsh;
+    ".config/zsh/.p10k.zsh" = {
+      source = ./zsh/.p10k.zsh;
     };
   };
 

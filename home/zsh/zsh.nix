@@ -24,7 +24,7 @@
     ];
 
     initContent = ''
-      source ~/dotfiles/zsh/.p10k.zsh
+      source ~/.config/zsh/.p10k.zsh
       if [ -n ''${commands[fzf-share]} ]; then
         source "$(fzf-share)/key-bindings.zsh"
         source "$(fzf-share)/completion.zsh"
