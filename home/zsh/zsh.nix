@@ -39,7 +39,11 @@
       vim = "nvim";
       ls = "eza --icons";
       tree = "eza --tree --icons";
+      xopy = "pbcopy <";
+      xpaste = "pbpaste >";
+      xshow = "pbpaste";
     };
+
   };
 
 }
